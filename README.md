@@ -6,7 +6,7 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 
 ## Screenshots
 
-![The Islands Theme](https://raw.githubusercontent.com/rbutov/vscode-the-islands-theme/main/images/preview.png)
+The Islands Theme
 
 ## Features
 
@@ -48,7 +48,7 @@ Found any bugs or have suggestions to improve the theme? Please report issues in
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "monospace",
   "editor.bracketPairColorization.enabled": false,
-  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark"
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
 ```
 
 ## Contributing
