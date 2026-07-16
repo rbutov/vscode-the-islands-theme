@@ -1,0 +1,10 @@
+.vscode/**
+.github/**
+.gitignore
+.prettierrc
+node_modules/**
+bin/**
+**/*.md
+!README.md
+!CHANGELOG.md
+!LICENSE

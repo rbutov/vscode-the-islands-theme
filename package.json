@@ -1,0 +1,58 @@
+{
+  "name": "islands-dark-theme",
+  "displayName": "Islands Dark Theme",
+  "version": "1.0.0",
+  "publisher": "butov-dev",
+  "license": "MIT",
+  "description": "Islands Dark Theme for VS Code — soft layered dark mode inspired by the JetBrains Islands theme, the new default look for JetBrains IDEs.",
+  "scripts": {
+    "lint": "prettier src --write",
+    "vsce-package": "vsce package -o ./bin/theme.vsix",
+    "vsce-publish": "vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#191A1C",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "maintainers": ["Ruslan Butov"],
+  "categories": ["Themes", "Other"],
+  "keywords": [
+    "theme",
+    "jetbrains",
+    "islands",
+    "islands dark",
+    "intellij",
+    "webstorm",
+    "phpstorm",
+    "javascript",
+    "typescript",
+    "php",
+    "graphql",
+    "dark theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Islands Dark",
+        "uiTheme": "vs-dark",
+        "path": "./src/theme.json"
+      }
+    ]
+  },
+  "icon": "./images/icon.png",
+  "bugs": {
+    "url": "https://github.com/rbutov/vscode-islands-dark-theme/issues",
+    "email": "support@butov.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbutov/vscode-islands-dark-theme.git"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.9.2",
+    "prettier": "^3.9.5"
+  }
+}
