@@ -1,78 +1,68 @@
 # Islands Dark Theme for VS Code
 
-The **Islands Dark Theme** brings the soft, layered look of [JetBrains Islands](https://blog.jetbrains.com/platform/2025/12/meet-the-islands-theme-the-new-default-look-for-jetbrains-ides/) — the new default appearance across JetBrains IDEs — to Visual Studio Code and Cursor.
+The **Islands Dark Theme** is a Visual Studio Code theme designed to replicate the soft, layered dark mode aesthetics of [JetBrains Islands](https://blog.jetbrains.com/platform/2025/12/meet-the-islands-theme-the-new-default-look-for-jetbrains-ides/) — the new default look across JetBrains IDEs. Tailored for developers who prefer a sleek, minimalist workspace, this theme enhances focus, reduces eye strain, and creates a consistent coding environment across different languages and file types.
 
-Dark chrome frames darker editor and tool-window islands, with clearer active tabs and syntax colors taken from the official Islands Dark editor scheme.
+Whether you're a seasoned coder working long hours or just someone who appreciates elegant design, this theme offers the perfect blend of style and functionality.
+
+## Screenshots
+
+![Islands Dark Theme](https://raw.githubusercontent.com/rbutov/vscode-islands-dark-theme/main/images/preview.png)
 
 ## Features
 
-- **Islands Dark only** — faithful dark port of the JetBrains Islands palette
-- **Layered UI** — lighter main-window chrome (`#26282C`) around darker editor / sidebar / panel islands (`#191A1C`)
-- **Clear active tabs** — blue-tinted selection (`#233558`) so the focused file stands out
-- **JetBrains syntax** — keywords, strings, functions, and comments matching Islands Dark
-- **Modern workbench** — sticky scroll, terminal, chat / inline chat, testing, notebook, and SCM graph colors
-- **Broad language coverage** — JavaScript, TypeScript, PHP, Go, Ruby, GraphQL, and more
-
-## Color Palette
-
-Mapped from JetBrains `ManyIslandsDark.theme.json` and `IslandSchemeDark.xml`:
-
-| Role | Color |
-| --- | --- |
-| Editor / tool windows | `#191A1C` |
-| Main window chrome | `#26282C` |
-| Popups / lookups | `#27282B` |
-| Foreground | `#BCBEC4` |
-| Selection | `#2A4371` |
-| Active tab | `#233558` / border `#2E4D89` |
-| Keywords | `#CF8E6D` |
-| Strings | `#6AAB73` |
-| Numbers | `#2AACB8` |
-| Functions | `#56A8F5` |
-| Fields / properties | `#C77DBB` |
-| Comments | `#7A7E85` |
-| Accent | `#3871E1` |
+- **Dark Mode**: A beautifully balanced dark theme with layered backgrounds and high-contrast foregrounds to highlight your code.
+- **Minimalist Design**: Inspired by JetBrains Islands, it emphasizes clean lines and uncluttered visuals for a distraction-free coding experience.
+- **Enhanced Readability**: Carefully selected colors for syntax highlighting ensure that your code is easy to read and work with, even during extended sessions.
+- **Consistent Color Scheme**: Works seamlessly across a variety of languages and file formats, ensuring that your coding environment remains cohesive.
+- **Eye-Strain Reduction**: Optimized for low-light environments, this theme reduces eye fatigue during late-night coding sessions.
 
 ## Installation
 
-1. Open **Extensions** in VS Code (or Cursor).
+1. Open **Extensions** in VSCode's sidebar. (or From Command Palette (**Ctrl+Shift+P**), `View: Show Extensions`)
 2. Search for `Islands Dark Theme`.
-3. Click **Install**.
-4. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`), choose **Preferences: Color Theme**, and select **Islands Dark**.
+3. Click **Install** to install it.
+4. From Command Palette (**Ctrl+Shift+P**), select `Preferences: Color Theme` and select `Islands Dark`.
 
-### From VSIX
+## Customization
 
-```bash
-npm install
-npm run vsce-package
-code --install-extension ./bin/theme.vsix
-```
+Want to make the theme your own? You can easily customize it:
+
+1. Open the **Command Palette** (`Ctrl+Shift+P`).
+2. Search for `Preferences: Open Settings (JSON)` and select it.
+3. From there, you can adjust settings like editor colors, font styles, and more to create a personalized look.
+
+## Why Choose This Theme?
+
+- **Focus on Productivity**: With its clean, layered design and carefully balanced colors, this theme helps you stay focused on your code.
+- **Inspiration from JetBrains**: Enjoy the familiar, polished look of JetBrains' Islands theme in your favorite code editor.
+- **Optimized for Night Coding**: The soft yet contrasty color palette is perfect for low-light conditions, making it a go-to for night owls.
+
+## Issues and Feedback
+
+Found any bugs or have suggestions to improve the theme? Please report issues in the [GitHub repository](https://github.com/rbutov/vscode-islands-dark-theme). Your feedback helps us make this theme even better!
 
 ## Recommended Editor Settings
 
 ```json
-{
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "monospace",
   "editor.bracketPairColorization.enabled": false,
   "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark"
-}
 ```
 
-## Development
+## Contributing
 
-1. Clone this repository.
-2. Run `npm install`.
-3. Press `F5` (or use **Launch Theme**) to open an Extension Development Host.
+We welcome contributions from the community! To contribute:
 
-## Issues and Feedback
-
-Report bugs or ideas in the [GitHub repository](https://github.com/rbutov/vscode-islands-dark-theme).
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bug fix.
+3. Push your changes and submit a pull request.
 
 ## License
 
-Released under the [MIT License](LICENSE).
+The **Islands Dark Theme** is released under the [MIT License](LICENSE).
 
 ---
 
-Inspired by the JetBrains Islands theme. Not affiliated with JetBrains.
+Enjoy a smoother, more focused coding experience with **Islands Dark Theme** – where elegance meets functionality!
