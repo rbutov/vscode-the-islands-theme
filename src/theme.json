@@ -307,8 +307,8 @@
     "list.focusAndSelectionOutline": "#2A4371",
     "list.focusBackground": "#2A4371",
     "list.focusForeground": "#D1D3D9",
-    "list.focusHighlightForeground": "#BA9752",
-    "list.highlightForeground": "#BA9752",
+    "list.focusHighlightForeground": "#538AF9",
+    "list.highlightForeground": "#538AF9",
     "list.hoverBackground": "#FFFFFF10",
     "list.hoverForeground": "#D1D3D9",
     "list.inactiveSelectionBackground": "#33353B",
@@ -1167,7 +1167,6 @@
         "variable.other.php",
         "variable.other.global.php",
         "variable.other.global.safer.php",
-        "variable.language.this.php",
         "support.constant.core.php"
       ],
       "settings": {
@@ -1227,7 +1226,7 @@
       "name": "Ruby class / constant",
       "scope": ["entity.name.type.class.ruby", "variable.other.constant.ruby"],
       "settings": {
-        "foreground": "#BCBEC4",
+        "foreground": "#C77DBB",
         "fontStyle": "italic"
       }
     },
@@ -1341,6 +1340,7 @@
         "variable.language.this",
         "variable.language.super",
         "variable.language.self",
+        "variable.language.this.php",
         "variable.language.special.self.python",
         "variable.language.special.cls.python"
       ],
