@@ -18,21 +18,26 @@
     "vscode": "^1.85.0"
   },
   "maintainers": ["Ruslan Butov"],
-  "categories": ["Themes", "Other"],
+  "categories": ["Themes"],
   "keywords": [
     "theme",
+    "color-theme",
+    "dark",
     "jetbrains",
     "islands",
     "islands dark",
     "intellij",
     "webstorm",
     "phpstorm",
+    "pycharm",
     "javascript",
     "typescript",
     "php",
     "graphql",
-    "dark theme"
+    "dark theme",
+    "cursor"
   ],
+  "homepage": "https://github.com/rbutov/vscode-islands-dark-theme",
   "contributes": {
     "themes": [
       {

@@ -1,15 +1,16 @@
 # Islands Dark Theme for VS Code
 
-The **Islands Dark Theme** brings the soft, layered look of [JetBrains Islands](https://blog.jetbrains.com/platform/2025/12/meet-the-islands-theme-the-new-default-look-for-jetbrains-ides/) — the new default appearance across JetBrains IDEs — to Visual Studio Code.
+The **Islands Dark Theme** brings the soft, layered look of [JetBrains Islands](https://blog.jetbrains.com/platform/2025/12/meet-the-islands-theme-the-new-default-look-for-jetbrains-ides/) — the new default appearance across JetBrains IDEs — to Visual Studio Code and Cursor.
 
 Dark chrome frames darker editor and tool-window islands, with clearer active tabs and syntax colors taken from the official Islands Dark editor scheme.
 
 ## Features
 
 - **Islands Dark only** — faithful dark port of the JetBrains Islands palette
-- **Layered UI** — lighter main-window chrome around darker editor / sidebar / panel islands
-- **Clear active tabs** — blue-tinted selection so the focused file stands out
+- **Layered UI** — lighter main-window chrome (`#26282C`) around darker editor / sidebar / panel islands (`#191A1C`)
+- **Clear active tabs** — blue-tinted selection (`#233558`) so the focused file stands out
 - **JetBrains syntax** — keywords, strings, functions, and comments matching Islands Dark
+- **Modern workbench** — sticky scroll, terminal, chat / inline chat, testing, notebook, and SCM graph colors
 - **Broad language coverage** — JavaScript, TypeScript, PHP, Go, Ruby, GraphQL, and more
 
 ## Color Palette
