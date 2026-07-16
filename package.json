@@ -1,10 +1,10 @@
 {
-  "name": "islands-dark-theme",
-  "displayName": "Islands Dark Theme",
-  "version": "1.0.0",
+  "name": "the-islands-theme",
+  "displayName": "The Islands Theme",
+  "version": "1.1.0",
   "publisher": "butov-dev",
   "license": "MIT",
-  "description": "Islands Dark Theme for VS Code — soft layered dark mode inspired by the JetBrains Islands theme, the new default look for JetBrains IDEs.",
+  "description": "The Islands Theme for VS Code — Dark, Light, and Darcula variants inspired by the JetBrains Islands theme, the new default look for JetBrains IDEs.",
   "scripts": {
     "lint": "prettier src --write",
     "vsce-package": "vsce package -o ./bin/theme.vsix",
@@ -23,9 +23,13 @@
     "theme",
     "color-theme",
     "dark",
+    "light",
+    "darcula",
     "jetbrains",
     "islands",
     "islands dark",
+    "islands light",
+    "islands darcula",
     "intellij",
     "webstorm",
     "phpstorm",
@@ -35,26 +39,37 @@
     "php",
     "graphql",
     "dark theme",
+    "light theme",
     "cursor"
   ],
-  "homepage": "https://github.com/rbutov/vscode-islands-dark-theme",
+  "homepage": "https://github.com/rbutov/vscode-the-islands-theme",
   "contributes": {
     "themes": [
       {
         "label": "Islands Dark",
         "uiTheme": "vs-dark",
-        "path": "./src/theme.json"
+        "path": "./src/islands-dark.json"
+      },
+      {
+        "label": "Islands Light",
+        "uiTheme": "vs",
+        "path": "./src/islands-light.json"
+      },
+      {
+        "label": "Islands Darcula",
+        "uiTheme": "vs-dark",
+        "path": "./src/islands-darcula.json"
       }
     ]
   },
   "icon": "./images/icon.png",
   "bugs": {
-    "url": "https://github.com/rbutov/vscode-islands-dark-theme/issues",
+    "url": "https://github.com/rbutov/vscode-the-islands-theme/issues",
     "email": "support@butov.dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rbutov/vscode-islands-dark-theme.git"
+    "url": "https://github.com/rbutov/vscode-the-islands-theme.git"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.9.2",

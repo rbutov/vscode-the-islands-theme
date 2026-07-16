@@ -1,27 +1,27 @@
-# Islands Dark Theme for VS Code
+# The Islands Theme for VS Code
 
-The **Islands Dark Theme** is a Visual Studio Code theme designed to replicate the soft, layered dark mode aesthetics of [JetBrains Islands](https://blog.jetbrains.com/platform/2025/12/meet-the-islands-theme-the-new-default-look-for-jetbrains-ides/) — the new default look across JetBrains IDEs. Tailored for developers who prefer a sleek, minimalist workspace, this theme enhances focus, reduces eye strain, and creates a consistent coding environment across different languages and file types.
+**The Islands Theme** is a Visual Studio Code theme pack designed to replicate the soft, layered aesthetics of [JetBrains Islands](https://blog.jetbrains.com/platform/2025/12/meet-the-islands-theme-the-new-default-look-for-jetbrains-ides/) — the new default look across JetBrains IDEs. It includes three variants matching the JetBrains theme picker: **Islands Dark**, **Islands Light**, and **Islands Darcula**.
 
 Whether you're a seasoned coder working long hours or just someone who appreciates elegant design, this theme offers the perfect blend of style and functionality.
 
 ## Screenshots
 
-![Islands Dark Theme](https://raw.githubusercontent.com/rbutov/vscode-islands-dark-theme/main/images/preview.png)
+![The Islands Theme](https://raw.githubusercontent.com/rbutov/vscode-the-islands-theme/main/images/preview.png)
 
 ## Features
 
-- **Dark Mode**: A beautifully balanced dark theme with layered backgrounds and high-contrast foregrounds to highlight your code.
-- **Minimalist Design**: Inspired by JetBrains Islands, it emphasizes clean lines and uncluttered visuals for a distraction-free coding experience.
+- **Three Islands Variants**: Islands Dark, Islands Light, and Islands Darcula — the same trio shipped with JetBrains IDEs.
+- **Layered Chrome**: Soft separation between the main window, editor islands, and tool windows, inspired by JetBrains Islands.
 - **Enhanced Readability**: Carefully selected colors for syntax highlighting ensure that your code is easy to read and work with, even during extended sessions.
 - **Consistent Color Scheme**: Works seamlessly across a variety of languages and file formats, ensuring that your coding environment remains cohesive.
-- **Eye-Strain Reduction**: Optimized for low-light environments, this theme reduces eye fatigue during late-night coding sessions.
+- **Eye-Strain Reduction**: Dark and Darcula variants are optimized for low-light environments; Light keeps high contrast for daytime work.
 
 ## Installation
 
 1. Open **Extensions** in VSCode's sidebar. (or From Command Palette (**Ctrl+Shift+P**), `View: Show Extensions`)
-2. Search for `Islands Dark Theme`.
+2. Search for `The Islands Theme`.
 3. Click **Install** to install it.
-4. From Command Palette (**Ctrl+Shift+P**), select `Preferences: Color Theme` and select `Islands Dark`.
+4. From Command Palette (**Ctrl+Shift+P**), select `Preferences: Color Theme` and choose `Islands Dark`, `Islands Light`, or `Islands Darcula`.
 
 ## Customization
 
@@ -35,11 +35,11 @@ Want to make the theme your own? You can easily customize it:
 
 - **Focus on Productivity**: With its clean, layered design and carefully balanced colors, this theme helps you stay focused on your code.
 - **Inspiration from JetBrains**: Enjoy the familiar, polished look of JetBrains' Islands theme in your favorite code editor.
-- **Optimized for Night Coding**: The soft yet contrasty color palette is perfect for low-light conditions, making it a go-to for night owls.
+- **Pick Your Mood**: Dark for the default Islands look, Light for daytime, Darcula for the classic low-contrast feel.
 
 ## Issues and Feedback
 
-Found any bugs or have suggestions to improve the theme? Please report issues in the [GitHub repository](https://github.com/rbutov/vscode-islands-dark-theme). Your feedback helps us make this theme even better!
+Found any bugs or have suggestions to improve the theme? Please report issues in the [GitHub repository](https://github.com/rbutov/vscode-the-islands-theme). Your feedback helps us make this theme even better!
 
 ## Recommended Editor Settings
 
@@ -61,8 +61,8 @@ We welcome contributions from the community! To contribute:
 
 ## License
 
-The **Islands Dark Theme** is released under the [MIT License](LICENSE).
+**The Islands Theme** is released under the [MIT License](LICENSE).
 
 ---
 
-Enjoy a smoother, more focused coding experience with **Islands Dark Theme** – where elegance meets functionality!
+Enjoy a smoother, more focused coding experience with **The Islands Theme** – where elegance meets functionality!

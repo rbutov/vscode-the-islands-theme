@@ -1,11 +1,12 @@
-## How to contribute
+# Contributing
 
-1. Fork and clone this repo. `git clone https://github.com/<YOUR-USERNAME>/vscode-islands-dark-theme`
-2. Create a branch for your changes. `git checkout -b my-new-feature`
-3. Install dependencies. `npm install`
-4. Open the repository folder in VS Code or Cursor.
-5. Edit `src/theme.json`.
-6. Build and examine your changes in an Extension Development Host.
-   - Debug > Start Debugging or use F5 as a shortcut
-7. Commit and push your changes.
-8. Submit a PR for discussion, keeping in mind that not all suggestions can be accepted.
+1. Fork and clone this repo. `git clone https://github.com/<YOUR-USERNAME>/vscode-the-islands-theme`
+2. `npm install`
+3. Open the project in VS Code / Cursor.
+4. Press `F5` to launch an Extension Development Host and preview themes.
+5. Edit the theme files under `src/`:
+   - `islands-dark.json`
+   - `islands-light.json`
+   - `islands-darcula.json`
+6. Reload the Extension Development Host to see your changes.
+7. Open a pull request against `main`.

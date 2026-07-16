@@ -1,6 +1,15 @@
 # Change Log
 
-All notable changes to the "islands-dark-theme" extension will be documented in this file.
+All notable changes to "The Islands Theme" extension will be documented in this file.
+
+## 1.1.0 (2026-07-16)
+
+- Renamed extension to **The Islands Theme** (`the-islands-theme`)
+- Added three JetBrains Islands variants in the theme picker:
+  - **Islands Dark** — from `ManyIslandsDark.theme.json` + `IslandSchemeDark.xml`
+  - **Islands Light** — from `ManyIslandsLight.theme.json` + Light editor scheme
+  - **Islands Darcula** — from `ManyIslandsDarcula.theme.json` + classic Darcula scheme
+- Repository moved to https://github.com/rbutov/vscode-the-islands-theme
 
 ## 1.0.0 (2026-07-15)
 
