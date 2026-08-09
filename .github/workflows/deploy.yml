@@ -3,6 +3,8 @@ on:
   release:
     types:
       - published
+permissions:
+  contents: read
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -11,7 +13,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
+          cache: npm
       - run: npm install
-      - env:
+      - name: Publish to Visual Studio Marketplace
+        env:
           VSCE_PUBLISHER_TOKEN: ${{ secrets.VSCE_PUBLISHER_TOKEN }}
-        run: npm run vsce-publish -- -p $VSCE_PUBLISHER_TOKEN
+        run: |
+          if [ -z "$VSCE_PUBLISHER_TOKEN" ]; then
+            echo "VSCE_PUBLISHER_TOKEN secret is not set; skipping Marketplace publish."
+            exit 1
+          fi
+          npm run vsce-publish -- -p "$VSCE_PUBLISHER_TOKEN"
