@@ -25,3 +25,15 @@ jobs:
           files: ./bin/theme.vsix
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Publish in the same job: releases created with GITHUB_TOKEN do not
+      # trigger separate workflows on `release: published`.
+      - name: Publish to Visual Studio Marketplace
+        env:
+          VSCE_PUBLISHER_TOKEN: ${{ secrets.VSCE_PUBLISHER_TOKEN }}
+        run: |
+          if [ -z "$VSCE_PUBLISHER_TOKEN" ]; then
+            echo "::error::VSCE_PUBLISHER_TOKEN secret is not set on this repository."
+            echo "Add the same publisher token used by vscode-new-ui-dark-theme, then re-run this job."
+            exit 1
+          fi
+          npm run vsce-publish -- -p "$VSCE_PUBLISHER_TOKEN"
