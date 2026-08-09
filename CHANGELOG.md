@@ -2,6 +2,18 @@
 
 All notable changes to "The Islands Theme" extension will be documented in this file.
 
+## 1.2.0 (2026-08-09)
+
+- Re-synced against current JetBrains Islands theme sources (`ManyIslandsDark` / `Light` / `Darcula`); core palette unchanged since June 2026
+- **Islands Light** readability fixes:
+  - Corrected near-invisible UI tokens (`activityBarTop`, badges, selected tabs)
+  - Removed dark leftovers in merge editor, stack-frame highlight, and warning validation
+  - Improved low-contrast syntax (HTML/CSS tags, Vue components, SCSS comments, CSS URLs)
+  - Aligned bracket highlight colors with the Light editor scheme
+- Expanded modern workbench coverage (widget border, chat bubbles, gauges, profiles sash)
+- Restored marketplace README screenshot; fixed recommended settings JSON example
+- Updated `prettier` to 3.9.6 and refreshed transitive packaging dependencies (npm audit clean)
+
 ## 1.1.0 (2026-07-16)
 
 - Renamed extension to **The Islands Theme** (`the-islands-theme`)

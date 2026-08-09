@@ -6,7 +6,7 @@ Whether you're a seasoned coder working long hours or just someone who appreciat
 
 ## Screenshots
 
-The Islands Theme
+![The Islands Theme](https://raw.githubusercontent.com/rbutov/vscode-the-islands-theme/main/images/preview.png)
 
 ## Features
 
@@ -44,11 +44,13 @@ Found any bugs or have suggestions to improve the theme? Please report issues in
 ## Recommended Editor Settings
 
 ```json
+{
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "monospace",
   "editor.bracketPairColorization.enabled": false,
-  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto"
+}
 ```
 
 ## Contributing
@@ -62,6 +64,8 @@ We welcome contributions from the community! To contribute:
 ## License
 
 **The Islands Theme** is released under the [MIT License](LICENSE).
+
+JetBrains, IntelliJ, and related marks are trademarks of JetBrains s.r.o. This extension is an independent, unofficial recreation and is not affiliated with or endorsed by JetBrains.
 
 ---
 
